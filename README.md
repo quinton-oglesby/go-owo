@@ -3,7 +3,7 @@ This is a package to OwOify a given string.
 
 
 Use this command to get the package. 
-```go get github.com/varsapphire/OwO@v0.2.0```
+```go get github.com/varsapphire/OwO@latest```
 
 Import it by doing the following.
 ```import "github.com/varsapphire/OwO"```
