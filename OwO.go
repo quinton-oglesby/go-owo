@@ -75,7 +75,7 @@ var substitutions = map[string]string{
 /*UwU Convewts da specified stwing into OwO speak ʕʘ‿ʘʔ
 //:param text: Huohhhh. Da text uu want to convewt..
 :return: OWO Da convewted stwing (人◕ω◕)*/
-func whats_this(text string) string {
+func WhatsThis(text string) string {
 	for key, value := range substitutions {
 		text = strings.Replace(text, key, value, -1)
 	}
