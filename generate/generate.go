@@ -1,5 +1,5 @@
 // Package to OwOify a given string.
-package OwO
+package generate
 
 import (
 	"math/rand"
@@ -72,9 +72,11 @@ var substitutions = map[string]string{
 	"THE ": "DA ",
 }
 
-/*UwU Convewts da specified stwing into OwO speak ʕʘ‿ʘʔ
+/*
+UwU Convewts da specified stwing into OwO speak ʕʘ‿ʘʔ
 //:param text: Huohhhh. Da text uu want to convewt..
-:return: OWO Da convewted stwing (人◕ω◕)*/
+:return: OWO Da convewted stwing (人◕ω◕)
+*/
 func WhatsThis(text string) string {
 	for key, value := range substitutions {
 		text = strings.Replace(text, key, value, -1)
